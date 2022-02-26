@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.desktop-img {
+  display: none;
+}
+
+li {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.icon img {
+  height: 20px;
+  width: 30px;
+}
+
+.brand-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* z-index: 10; */
+}
+
+.icon {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  left: 1px;
+}
+
+.close {
+  opacity: 0;
+}
+
+nav {
+  padding-top: 20px;
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+ul {
+  text-align: center;
+  position: relative;
+  top: 25px;
+  line-height: 50px;
+  border: 1px solid rgb(221, 220, 220);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 7px;
+  background-color: white;
+  opacity: 0;
+  filter: drop-shadow(0px 60px 120px black);
+  color: hsl(0, 0%, 4%);
+  cursor: pointer;
+}
+
+.brand-button {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-button button {
+  border-radius: 50px;
+  padding: 15px 25px 15px 25px;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-color: transparent;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+.header-section-wrap {
+  width: auto;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.header-section {
+  width: 100%;
+  background: url("./images/bg-intro-mobile.svg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  top: 53px;
+}
+
+.container-mockups {
+  position: relative;
+  top: -148px;
+  padding: 0 8px 0 8px;
+}
+
+.container-mockups img {
+  height: 500px;
+}
+
+.header-article {
+  text-align: center;
+}
+
+.header-article span {
+  font-size: 2rem;
+}
+
+.header-article p {
+  font-size: 0.8rem;
+  line-height: 25px;
+  padding-top: 10px;
+  color: hsl(233, 8%, 62%);
+}
+
+.brand-button-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.brand-button-article button {
+  width: 50%;
+  border-radius: 50px;
+  padding: 10px 15px 10px 10px;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.brand-button-article button p {
+  padding: 0;
+}
+
+/* JavaScript implementation */
+
+.list.show {
+  opacity: 1;
+  transition: all ease-in 0.7s;
+}
+
+.hamburger.show {
+  opacity: 0;
+}
+
+.close.show {
+  opacity: 1;
+}
+
+/* Implementation stops here */
+
+article {
+  background-color: hsl(220, 16%, 96%);
+  text-align: center;
+  padding-top: 80px;
+}
+
+.section-sector {
+  padding-bottom: 50px;
+}
+
+.section-article span {
+  font-size: 2rem;
+}
+
+.section-article p {
+  padding-top: 20px;
+  line-height: 25px;
+  font-size: 0.85rem;
+}
+
+.sector img {
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.sector span p {
+  font-size: 1.1rem;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.sector p {
+  font-size: 0.85rem;
+  line-height: 25px;
+  color: hsl(233, 8%, 62%);
+}
+
+.journals {
+  background: hsl(0, 0%, 98%);
+  width: auto;
+  padding-top: 100px;
+}
+
+.article-journals {
+  position: relative;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.article-journals span p {
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.article-journals img {
+  border-radius: 10px;
+}
+
+.journal {
+  background-color: white;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.journal-text {
+  padding: 20px 30px 20px 30px;
+}
+
+.journal-text span p {
+  font-size: 0.7rem;
+  color: hsl(233, 8%, 62%);
+  padding: 0;
+}
+
+.journal-text h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.journal-text p {
+  font-size: 0.85rem;
+  line-height: 23px;
+  color: hsl(233, 8%, 62%);
+}
+
+.journals-wrap {
+  padding-bottom: 50px;
+}
+
+.footter {
+  background-color: hsl(233, 26%, 24%);
+  width: auto;
+}
+
+.footer {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  padding: 50px 0 100px 0;
+}
+
+.footer-brand {
+  padding-bottom: 20px;
+}
+
+.footer-media img {
+  height: 30px;
+  width: 35px;
+  padding-left: 7px;
+  cursor: pointer;
+}
+
+.footer-request button {
+  width: 60%;
+  border-radius: 50px;
+  padding: 15px 20px 15px 20px;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-request {
+  padding-bottom: 20px;
+}
+
+.footer-two,
+.footer-three {
+  color: hsl(0, 0%, 98%);
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.footer-two {
+  padding-top: 20px;
+}
+
+.footer-three {
+  padding-bottom: 20px;
+}
+
+.footer-four {
+  color: hsl(233, 8%, 62%);
+}
+
+@media only screen and (min-width: 1000px) {
+  nav {
+    position: relative;
+    z-index: 1;
+    width: auto;
+    left: 0;
+    transform: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon {
+    opacity: 0;
+  }
+
+  ul {
+    border: none;
+    top: 0;
+    padding: 0;
+    background-color: transparent;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li {
+    padding-left: 25px;
+  }
+
+  .brand-button button {
+    display: block;
+  }
+
+  .brand-button button p {
+    font-size: 0.85rem;
+  }
+
+  .header-section-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: hsl(0, 0%, 98%);
+    margin-top: 10px;
+    height: 450px;
+  }
+
+  .header-section {
+    background: url("./images/bg-intro-desktop.svg") no-repeat;
+    background-size: cover;
+    background-position: -10px -130px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .container-mockups {
+    position: relative;
+    top: -70px;
+    left: 90px;
+    padding: 0;
+  }
+
+  .container-mockups img {
+    height: auto;
+  }
+
+  .header-article {
+    text-align: left;
+    position: relative;
+    top: 70px;
+    width: 70%;
+    right: 27px;
+  }
+
+  .header-article p {
+    color: hsl(0, 0%, 43%);
+    font-size: 0.85rem;
+  }
+
+  .brand-button-article {
+    justify-content: left;
+  }
+
+  .brand-button-article button {
+    width: 45%;
+  }
+
+  .brand-button-article button p {
+    font-size: 0.7rem;
+    color: white;
+    padding: 0;
+  }
+
+  article {
+    text-align: left;
+  }
+
+  .section-sector {
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+  }
+
+  .section-article {
+    width: 55%;
+  }
+
+  .journals-wrap {
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .article-journals span p {
+    text-align: left;
+  }
+
+  .journal-text {
+    padding-bottom: 20px;
+  }
+
+  .footter {
+    background-color: hsl(233, 26%, 24%);
+    width: auto;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-brand {
+    padding-bottom: 40px;
+  }
+
+  .footer-request button {
+    width: 70%;
+  }
+
+  .footer-request {
+    padding-bottom: 20px;
+  }
+
+  .footer-two,
+  .footer-three {
+    color: hsl(0, 0%, 98%);
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .footer-media img {
+    height: 20px;
+    width: 25px;
+  }
+
+  .footer-two {
+    padding: 0;
+  }
+
+  .footer-three {
+    padding: 0;
+  }
+
+  .footer-four {
+    color: hsl(233, 8%, 62%);
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header-section-wrap {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .header-section-wrap {
+    height: 660px;
+  }
+
+  .header-article {
+    top: 78px;
+  }
+
+  .header-article span {
+    font-size: 3rem;
+  }
+
+  .header-article p {
+    font-size: 1.1rem;
+  }
+
+  .brand-button-article button {
+    width: 35%;
+  }
+
+  .container-mockups {
+    left: 120px;
+  }
+}
